@@ -3,7 +3,7 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <header className="header-container  max-h-[95px] w-full h-[95px] mb-[75px] border border-green-300">
+    <header className="header-container  max-h-[95px] w-full h-[95px] mb-[75px] ">
       <div className="wrapper-header flex justify-between items-center w-full h-full">
         <Image
           alt="logo"

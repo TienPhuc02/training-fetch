@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${cabinetGroteskExtraBold.variable} max-w-[1440px] min-h-screen bg-backgroundPrimary max-[1440px]:px-[120px] pt-[20px] mx-auto`}
+        className={`${inter.variable} ${cabinetGroteskExtraBold.variable} max-w-[1440px] min-h-screen bg-backgroundPrimary pt-[20px] mx-auto`}
       >
         {children}
       </body>

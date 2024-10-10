@@ -3,7 +3,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section className="hero-container w-full border border-red-300">
+    <section className="hero-container w-full ">
       <div className="wrapper-hero-title px-[50px] mb-[60px]">
         <p className="hero-title text-center max-w-[1097px] text-[90px]  font-secondary text-primary leading-[90px]">
           Unlock the power of decentralized organization
