@@ -1,7 +1,4 @@
 import SocialMediaIcons from '@/components/common/SocialMediaIcons';
-// import DiscordIcon from '@/utils/Icons/DiscordIcon';
-// import TelegramIcon from '@/utils/Icons/TelegramIcon';
-// import TwitterIcon from '@/utils/Icons/TwitterIcon';
 import React from 'react';
 
 const Hero = () => {
@@ -19,13 +16,6 @@ const Hero = () => {
         </p>
       </div>
       <div className="list-social-media px-[500px] text-white flex gap-[36px]">
-        {/* <DiscordIcon className="bg-white w-[40px] h-[40px] py-[10px] px-[7px] rounded-[100%]" />
-        <TelegramIcon className="bg-white w-[40px] h-[40px] py-[10px] px-[7px] rounded-[100%]" />
-        <TwitterIcon className="bg-white w-[40px] h-[40px] py-[10px] px-[7px] rounded-[100%]" /> */}
-        {/* {icons.map((icon, index) => {
-          const IconComponent = icon.component;
-          return <IconComponent key={index} className={icon.className} />;
-        })} */}
         <SocialMediaIcons />
       </div>
     </section>

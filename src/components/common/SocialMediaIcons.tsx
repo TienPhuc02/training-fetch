@@ -3,11 +3,6 @@ import TelegramIcon from '@/utils/Icons/TelegramIcon';
 import TwitterIcon from '@/utils/Icons/TwitterIcon';
 import React from 'react';
 
-interface IconProps {
-  className: string;
-}
-
-// Component cha cho các icon
 const SocialMediaIcons = () => {
   const icons = [
     {
