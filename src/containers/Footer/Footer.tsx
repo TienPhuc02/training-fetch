@@ -3,9 +3,7 @@ import Letter from '@/utils/Icons/Letter';
 import Image from 'next/image';
 import React from 'react';
 
-type Props = {};
-
-const Footer = (props: Props) => {
+const Footer = () => {
   return (
     <div className="footer-container bg-backgroundSecondary px-[120px] pt-[48px] pb-[72px] ">
       <div className="footer-info border-b pb-[26px] border-b-[#FFFFFF1A] mb-[24px]">
