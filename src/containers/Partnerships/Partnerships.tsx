@@ -17,7 +17,7 @@ const Partnerships = () => {
         {partnerships.map((partnership, index) => (
           <div
             key={index}
-            className="item-partnerships py-[57px] sm:py-[16px] bg-white rounded-[16px] sm:rounded-[10px]"
+            className="item-partnerships xxl:py-[57px] sm:py-[16px] bg-white rounded-[16px] sm:rounded-[10px]"
           >
             <Image
               src={partnership.src}
