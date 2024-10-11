@@ -9,7 +9,7 @@ const Plus = () => {
         viewBox="0 0 24 24"
         strokeWidth="1.5"
         stroke="currentColor"
-        className="w-[15px] h-[15px] text-white"
+        className="size-8 text-[#FAFAFD]"
       >
         <path
           strokeLinecap="round"

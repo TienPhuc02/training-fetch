@@ -3,8 +3,8 @@ import React from 'react';
 
 const Create = () => {
   return (
-    <section className="create-investment-container mt-[256px] px-[68px] mb-[140px]">
-      <div className="header-create-investment max-w-[1064px] mb-[68px]">
+    <section className="create-investment-container mt-[256px] mb-[140px]">
+      <div className="header-create-investment max-w-[1064px] mx-auto mb-[68px]">
         <p className="title-create-investment text-center font-secondary text-[40px] text-primary">
           Create your own investment squad
         </p>
@@ -29,8 +29,8 @@ const Create = () => {
           height={642}
         />
       </div>
-      <div className="button-create-investment flex  justify-center">
-        <button className="py-[10px]  px-[38px] bg-primary text-white text-center text-[18px] font-primary rounded-[5px]">
+      <div className="button-create-investment max-w-[200px] mx-auto">
+        <button className="py-[10px] w-full px-[38px] bg-primary text-white text-center text-[18px] font-primary rounded-[5px]">
           Get started
         </button>
       </div>

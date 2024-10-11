@@ -9,7 +9,7 @@ const Minus = () => {
         viewBox="0 0 24 24"
         strokeWidth="1.5"
         stroke="currentColor"
-        className="w-[15px] h-[15px] text-black"
+        className="size-8 text-[#1A1A27]"
       >
         <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 12h-15" />
       </svg>

@@ -67,8 +67,8 @@ const FAQ = () => {
             <Plus />
           </div>
         </div>
-        <div className="button-create-investment flex  justify-center">
-          <button className="py-[10px]  px-[38px] bg-primary text-white text-center text-[18px] font-primary rounded-[5px]">
+        <div className="button-create-investment max-w-[200px] mx-auto">
+          <button className="py-[10px] px-[19px] bg-primary text-white text-center text-[18px] font-primary rounded-[5px]">
             See more
           </button>
         </div>
