@@ -12,7 +12,7 @@ const Become = () => {
           Depending on your taste, either low cap, blue chip NFTs, or even web3
           startup, you can easily choose the right squad for you.
         </p>
-        <button className="py-[10px] px-[17px] bg-primary text-white text-center text-[18px] font-primary rounded-[5px] sm:text-[12px] sm:py-[6px] sm:px-[16px] sm:mb-[20px]">
+        <button className="xl:py-[10px] xl:px-[17px] bg-primary text-white text-center xl:text-[18px] font-primary rounded-[5px] sm:text-[12px] sm:py-[6px] sm:px-[16px] sm:mb-[20px]">
           Investment squads
         </button>
       </div>
