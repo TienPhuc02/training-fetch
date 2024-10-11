@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Letter = () => {
+const Letter = (props: { className: string }) => {
   return (
     <>
       <svg
