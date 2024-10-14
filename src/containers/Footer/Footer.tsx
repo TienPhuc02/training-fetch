@@ -5,7 +5,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div className="footer-container xl:bg-backgroundSecondary xl:px-[120px] xl:pt-[48px] xl:pb-[72px] lg:bg-backgroundSecondary lg:px-[80px] lg:pt-[40px] lg:pb-[60px] sm:px-[50px] sm:py-[30px]">
+    <div className="footer-container bg-backgroundSecondary xl:px-[120px] xl:pt-[48px] xl:pb-[72px] lg:px-[80px] lg:pt-[40px] lg:pb-[60px] sm:pt-[30px] sm:px-[50px] sm:py-[30px]">
       <div className="footer-info xl:border-b xl:pb-[26px] xl:border-b-[#FFFFFF1A] xl:mb-[24px] lg:border-b lg:pb-[20px] lg:mb-[20px]">
         <div className="contact xl:max-w-[359px] xl:mb-[36px] lg:max-w-[300px] lg:mb-[30px] sm:mb-[20px]">
           <p className="text-primary font-primary xl:text-[14px] xl:leading-[1.4] xl:mb-[12px] lg:text-[13px] lg:mb-[10px] sm:text-[12px] sm:mb-[10px]">
