@@ -6,7 +6,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <div className="footer-container bg-backgroundSecondary xl:px-[120px] xl:pt-[48px] xl:pb-[72px] lg:px-[70px] lg:pt-[35px] lg:pb-[50px] md:px-[60px] md:pt-[32px] md:pb-[45px] sm:pt-[30px] sm:px-[50px] sm:py-[30px]">
-      <div className="footer-info xl:border-b xl:pb-[26px] xl:border-b-[#FFFFFF1A] xl:mb-[24px] lg:border-b lg:pb-[20px] lg:mb-[20px] md:border-b md:pb-[18px] md:mb-[18px]">
+      <div className="footer-info sm:border-b sm:pb-[26px] sm:border-b-[#FFFFFF1A] xl:mb-[24px] lg:border-b lg:pb-[20px] lg:mb-[20px] md:border-b md:pb-[18px] md:mb-[18px]">
         <div className="contact xl:max-w-[359px] xl:mb-[36px] lg:max-w-[320px] lg:mb-[30px] md:max-w-[300px] md:mb-[28px] sm:mb-[20px]">
           <p className="text-primary font-primary xl:text-[14px] xl:leading-[1.4] xl:mb-[12px] lg:text-[13px] lg:mb-[10px] md:text-[14px] md:mb-[10px] sm:text-[12px] sm:mb-[10px]">
             For more information, partnership and press inquiries:
@@ -26,7 +26,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="list-social-media xl:justify-start lg:justify-start md:justify-start sm:justify-center text-primary flex gap-[36px] md:gap-[30px] sm:mb-[10px] sm:border-b sm:border-b-[#FFFFFF1A] sm:pb-[30px]">
+        <div className="list-social-media xl:justify-start lg:justify-start md:justify-start sm:justify-center text-primary flex gap-[36px] md:gap-[30px] sm:mb-[10px] ">
           <SocialMediaIcons />
         </div>
       </div>

@@ -9,13 +9,14 @@ const config: Config = {
   ],
   theme: {
     screens: {
-      sm: '375px',//done
-      md: '768px',//
-      sx: '992px',//done
-      lg: '1024px',//done
-      xl: '1280px',//done
-      xxl: '1440px'//done
+      sm: '375px', //done
+      md: '768px', //done
+      sx: '992px', //done
+      lg: '1024px', //done
+      xl: '1280px', //done
+      xxl: '1440px' //done
     },
+
     extend: {
       colors: {
         primary: '#FAFAFD',
@@ -28,7 +29,7 @@ const config: Config = {
       backgroundColor: {
         primary: '#6966FF',
         backgroundPrimary: '#1A1A27',
-        backgroundSecondary: '#151521' //footer
+        backgroundSecondary: '#151521'
       }
     }
   },
