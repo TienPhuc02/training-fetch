@@ -3,7 +3,7 @@ import React from 'react';
 
 const Diversify = () => {
   return (
-    <section className="xl:max-w-[1200px] sm:max-w-[300px]  mx-auto diversify-container text-primary mb-[140px] sm:mb-[70px]">
+    <section className="xl:max-w-[1200px] lg:max-w-[900px] lg:flex-col lg:items-center lg:justify-between lg:gap-[28px] lg:mb-[90px] sm:max-w-[300px]  mx-auto diversify-container text-primary mb-[140px] sm:mb-[70px]">
       <div className="header-diversify max-w-[957px] mx-auto mb-[68px]">
         <p className="title-diversify xl:text-[40px] xl:leading-1 xl:font-secondary xl:text-center xl:max-w-[642px] mx-auto xl:mb-[16px] sm:text-center sm:mb-[16px] sm:text-[22px] ">
           Diversify your investment portfolio

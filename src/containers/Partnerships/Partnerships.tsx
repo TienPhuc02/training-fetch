@@ -9,11 +9,11 @@ const Partnerships = () => {
     height: 46
   });
   return (
-    <div className="xl:max-w-[1200px] sm:max-w-[300px]  mx-auto partnerships-container xl:mb-[140px] sm:mb-[70px]">
+    <div className="xl:max-w-[1200px] sm:max-w-[300px]   mx-auto partnerships-container xl:mb-[140px] lg:max-w-[900px] lg:flex-col lg:items-center lg:justify-between lg:gap-[28px] sm:mb-[70px]">
       <p className="partnerships-title text-center font-secondary xl:text-[40px] sm:text-center sm:mb-[16px] sm:text-[22px] text-primary mb-[80px]">
         Out Partnerships
       </p>
-      <div className="partnerships-lists  grid xl:grid-cols-4 gap-[32px]">
+      <div className="partnerships-lists  grid grid-cols-4 gap-[32px]">
         {partnerships.map((partnership, index) => (
           <div
             key={index}

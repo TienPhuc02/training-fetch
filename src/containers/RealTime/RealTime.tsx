@@ -3,7 +3,7 @@ import React from 'react';
 
 const RealTime = () => {
   return (
-    <section className="xl:max-w-[1200px] sm:max-w-[300px]  mx-auto real-time-container xl:text-primary xl:flex xl:flex-row xl:justify-between xl:mb-[140px] sm:mb-[70px] sm:flex sm:flex-col">
+    <section className="xl:max-w-[1200px] sm:max-w-[300px]  mx-auto real-time-container xl:text-primary xl:flex xl:flex-row xl:justify-between xl:mb-[140px] lg:max-w-[900px] lg:flex-col lg:items-center lg:justify-between lg:gap-[28px] lg:mb-[90px] sm:mb-[70px] sm:flex sm:flex-col">
       <div className="real-time-left flex sm:flex-col gap-[12px] xl:order-0 sm:order-1">
         <Image
           alt="img-create-investment-4"
