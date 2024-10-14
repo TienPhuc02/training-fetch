@@ -14,8 +14,8 @@ const Create = () => {
         </p>
       </div>
 
-      <div className="content-create-investment gap-[20px] lg:max-w-[600px] lg:flex lg:flex-col lg:mb-[48px] lg:justify-center lg:items-center xl:mb-[48px] sm:flex-col sm:mb-[20px] mx-auto">
-        <div className="lg:w-[500px]">
+      <div className="content-create-investment flex xl:flex-row gap-[20px] xl:max-w-[1200px] lg:max-w-[600px] lg:flex lg:flex-col lg:mb-[48px] lg:justify-center lg:items-center xl:mb-[48px] sm:flex-col sm:mb-[20px] mx-auto">
+        <div className="xl:w-[580px] lg:w-[500px]">
           <Image
             alt="img-create-investment-1"
             src="/images/img-investment.png"
@@ -25,7 +25,7 @@ const Create = () => {
             objectFit="contain"
           />
         </div>
-        <div className="lg:w-[500px]">
+        <div className="xl:w-[580px] lg:w-[500px]">
           <Image
             alt="img-create-investment-2"
             src="/images/img-investment-2.png"

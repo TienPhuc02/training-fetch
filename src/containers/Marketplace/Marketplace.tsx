@@ -14,7 +14,7 @@ const Marketplace = () => {
         </p>
       </div>
       <div className="content-create-investment flex gap-[40px] xl:mb-[48px] lg:flex lg:flex-col lg:justify-center lg:items-center sm:flex-col xl:flex-row">
-        <div className="lg:w-[500px]">
+        <div className="xl:w-[580px] lg:w-[500px]">
           <Image
             alt="img-create-investment-8"
             src="/images/img-investment-8.png"
@@ -24,7 +24,7 @@ const Marketplace = () => {
             objectFit="contain"
           />
         </div>
-        <div className="lg:w-[500px]">
+        <div className="xl:w-[580px] lg:w-[500px]">
           <Image
             alt="img-create-investment-9"
             src="/images/img-investment-9.png"
