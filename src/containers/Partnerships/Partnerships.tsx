@@ -8,16 +8,17 @@ const Partnerships = () => {
     width: 276,
     height: 46
   });
+
   return (
-    <div className="xl:max-w-[1200px] sm:max-w-[300px]   mx-auto partnerships-container xl:mb-[140px] lg:max-w-[900px] lg:flex-col lg:items-center lg:justify-between lg:gap-[28px] sm:mb-[70px]">
-      <p className="partnerships-title text-center font-secondary xl:text-[40px] sm:text-center sm:mb-[16px] sm:text-[22px] text-primary mb-[80px]">
-        Out Partnerships
+    <div className="xl:max-w-[1200px] md:max-w-[600px] sm:max-w-[300px] sx:max-w-[720px] mx-auto partnerships-container xl:mb-[140px] sx:mb-[100px] lg:max-w-[900px] lg:flex-col lg:items-center lg:justify-between lg:gap-[28px] sm:mb-[70px] md:mb-[80px]">
+      <p className="partnerships-title text-center font-secondary xl:text-[40px] md:text-[28px] sx:text-[32px] sm:text-center sm:mb-[16px] sm:text-[22px] text-primary mb-[80px] sx:mb-[60px]">
+        Our Partnerships
       </p>
-      <div className="partnerships-lists  grid grid-cols-4 gap-[32px]">
+      <div className="partnerships-lists grid xl:grid-cols-4 gap-[32px] sx:grid-cols-3 md:grid-cols-2">
         {partnerships.map((partnership, index) => (
           <div
             key={index}
-            className="item-partnerships xl:py-[57px] sm:py-[12px] bg-white xl:rounded-[16px] sm:rounded-[5px]"
+            className="item-partnerships xl:w-[276px] xl:py-[57px] md:py-[30px] flex justify-center items-center sx:py-[40px] sm:py-[12px] bg-white xl:rounded-[16px] md:rounded-[10px] sx:rounded-[10px] sm:rounded-[5px]"
           >
             <Image
               src={partnership.src}

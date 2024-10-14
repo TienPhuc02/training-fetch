@@ -3,6 +3,7 @@ import Create from '@/containers/Create/Create';
 import Diversify from '@/containers/Diversify/Diversify';
 import FAQ from '@/containers/FAQ/FAQ';
 import Footer from '@/containers/Footer/Footer';
+import Gasless from '@/containers/Gasless/Gasless';
 import Header from '@/containers/Header/Header';
 import Hero from '@/containers/Hero/Hero';
 import Marketplace from '@/containers/Marketplace/Marketplace';
@@ -19,6 +20,7 @@ export default function Home() {
         <Become />
         <RealTime />
         <Diversify />
+        <Gasless />
         <Marketplace />
         <Partnerships />
         <FAQ />
