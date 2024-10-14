@@ -35,8 +35,8 @@ const Marketplace = () => {
           />
         </div>
       </div>
-      <div className="button-create-investment xl:max-w-[200px] xl:mx-auto sm:max-w-[140px] ">
-        <button className="xl:py-[10px] xl:px-[19px] xl:bg-primary xl:text-primary xl:text-center xl:text-[18px] xl:font-primary xl:rounded-[5px] sm:text-[12px] sm:py-[6px] sm:px-[16px] ">
+      <div className="button-create-investment xl:max-w-[200px] mx-auto sm:max-w-[140px] ">
+        <button className="xl:py-[10px] xl:px-[19px] bg-primary text-primary text-center xl:text-[18px] font-primary rounded-[5px] sm:text-[12px] sm:py-[6px] sm:px-[16px] sm:mt-[15px] ">
           Enter Marketplace
         </button>
       </div>
