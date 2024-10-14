@@ -26,7 +26,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="list-social-media xl:justify-start lg:justify-start md:justify-start sm:justify-center text-primary flex gap-[36px] md:gap-[30px] sm:mb-[10px]">
+        <div className="list-social-media xl:justify-start lg:justify-start md:justify-start sm:justify-center text-primary flex gap-[36px] md:gap-[30px] sm:mb-[10px] sm:border-b sm:border-b-[#FFFFFF1A] sm:pb-[30px]">
           <SocialMediaIcons />
         </div>
       </div>
