@@ -58,3 +58,7 @@ và >= 1440
 - 375 : font size 20 - 16- 13 12 - 11 - 10
 - button min 28
 - view port và độ phân giải trong device
+- body 100vh-header(fixed)-footer
+- icon -> cursor pointer
+- body -> container(tailwindcss)
+- scroll,animation -> faded

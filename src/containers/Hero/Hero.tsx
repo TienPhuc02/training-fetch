@@ -3,7 +3,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section className="hero-container xl:w-full">
+    <section className="xl:max-w-[1200px] sm:max-w-[300px]  mx-auto hero-container xl:w-full">
       <div className="wrapper-hero-title xl:mb-[60px] sm:mb-[20px]">
         <p className="hero-title text-center xl:max-w-[1097px] xl:text-[90px] font-secondary text-primary leading-1 mx-auto sm:text-[22px] sm:max-w-[270px]">
           Unlock the power of decentralized organization
@@ -15,7 +15,7 @@ const Hero = () => {
           easy to onboard communities onto Web3.
         </p>
       </div>
-      <div className="list-social-media xl:max-w-[192px]  mx-auto xl:text-white flex gap-[36px] sm:max-w-[150px]">
+      <div className="list-social-media xl:max-w-[192px]  mx-auto xl:text-primary flex gap-[36px] sm:max-w-[150px]">
         <SocialMediaIcons />
       </div>
     </section>

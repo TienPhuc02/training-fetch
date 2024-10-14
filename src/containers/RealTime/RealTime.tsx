@@ -3,7 +3,7 @@ import React from 'react';
 
 const RealTime = () => {
   return (
-    <section className="real-time-container xl:text-white xl:flex xl:flex-row xl:justify-between xl:mb-[140px] sm:mb-[70px] sm:flex sm:flex-col">
+    <section className="xl:max-w-[1200px] sm:max-w-[300px]  mx-auto real-time-container xl:text-primary xl:flex xl:flex-row xl:justify-between xl:mb-[140px] sm:mb-[70px] sm:flex sm:flex-col">
       <div className="real-time-left flex sm:flex-col gap-[12px] xl:order-0 sm:order-1">
         <Image
           alt="img-create-investment-4"
@@ -20,7 +20,7 @@ const RealTime = () => {
           height={257}
         />
       </div>
-      <div className="real-time-right xl:py-[141px] xl:text-white xl:max-w-[441px] sm:order-0 sm:pb-[50px] xl:order-1">
+      <div className="real-time-right xl:py-[141px] xl:text-primary xl:max-w-[441px] sm:order-0 sm:pb-[50px] xl:order-1">
         <p className="real-time-right-title font-secondary text-primary leading-[1.2] xl:text-[40px] xl:text-left mb-[28px] sm:text-center sm:mb-[16px] sm:text-[22px] ">
           Real-time digital asset management
         </p>

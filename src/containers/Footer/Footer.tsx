@@ -8,25 +8,25 @@ const Footer = () => {
     <div className="footer-container xl:bg-backgroundSecondary xl:px-[120px] xl:pt-[48px] xl:pb-[72px] sm:px-[50px]">
       <div className="footer-info xl:border-b xl:pb-[26px] xl:border-b-[#FFFFFF1A] xl:mb-[24px]">
         <div className="contact xl:max-w-[359px] xl:mb-[36px]">
-          <p className="text-primary font-primary xl:text-[14px] xl:leading-[1.4] xl:mb-[12px] sm:text-[12px]">
+          <p className="text-primary font-primary xl:text-[14px] xl:leading-[1.4] xl:mb-[12px] sm:text-[12px] sm:mb-[10px]">
             For more information, partnership and press inquiries:
           </p>
-          <div className="flex flex-col xl:gap-[12px] max-w-[310px]">
+          <div className="flex flex-col xl:gap-[12px] max-w-[310px] sm:mb-[10px]">
             <div className="email flex  text-primary font-primary xl:text-[16px] sm:text-[13px]">
               <Letter className="xl:w-6 xl:h-6 xl:mr-[10px] sm:w-4 sm:h-4" />
               <p>support@spinel.finance</p>
             </div>
-            <div className="email flex text-white font-primary xl:text-[16px] sm:text-[13px]">
+            <div className="email flex text-primary font-primary xl:text-[16px] sm:text-[13px]">
               <Letter className="xl:w-6 xl:h-6 xl:mr-[10px] sm:w-4 sm:h-4" />
               <p>support@spinel.finance</p>
             </div>
-            <div className="email flex text-white font-primary xl:text-[16px] sm:text-[13px]">
+            <div className="email flex text-primary font-primary xl:text-[16px] sm:text-[13px]">
               <Letter className="xl:w-6 xl:h-6 xl:mr-[10px] sm:w-4 sm:h-4" />
               <p>support@spinel.finance</p>
             </div>
           </div>
         </div>
-        <div className="list-social-media  xl:justify-start sm:justify-center text-white flex gap-[36px]">
+        <div className="list-social-media  xl:justify-start sm:justify-center text-primary flex gap-[36px] sm:mb-[10px]">
           <SocialMediaIcons />
         </div>
       </div>

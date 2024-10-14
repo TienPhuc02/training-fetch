@@ -12,8 +12,8 @@ import RealTime from '@/containers/RealTime/RealTime';
 export default function Home() {
   return (
     <div className="homepage-main">
-      <div className="xl:max-w-[1200px] sm:max-w-[300px] xl:max-w-[1200px] mx-auto">
-        <Header />
+      <Header />
+      <div className="body-container">
         <Hero />
         <Create />
         <Become />
