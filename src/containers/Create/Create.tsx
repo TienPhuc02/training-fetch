@@ -35,11 +35,11 @@ const Create = () => {
             objectFit="contain"
           />
         </div>
-        <div className="button-create-investment max-w-[200px] mx-auto text-center">
-          <button className="bg-primary text-primary text-center font-primary rounded-[5px] sm:text-[12px] sm:py-[6px] sm:px-[16px] sx:text-[16px] sx:py-[8px] sx:px-[20px] xl:text-[18px] xl:py-[10px] xl:px-[38px] lg:py-[6px] lg:px-[16px] md:text-[16px] md:py-[8px] md:px-[24px]">
-            Get started
-          </button>
-        </div>
+      </div>
+      <div className="button-create-investment max-w-[200px] mx-auto text-center">
+        <button className="bg-primary text-primary text-center font-primary rounded-[5px] sm:text-[12px] sm:py-[6px] sm:px-[16px] sx:text-[16px] sx:py-[8px] sx:px-[20px] xl:text-[18px] xl:py-[10px] xl:px-[38px] lg:py-[6px] lg:px-[16px] md:text-[16px] md:py-[8px] md:px-[24px]">
+          Get started
+        </button>
       </div>
     </section>
   );
